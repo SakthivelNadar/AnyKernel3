@@ -393,8 +393,22 @@ if [ -f version ]; then
   ui_printfile version;
   ui_print " ";
 fi;
-ui_print " " "AnyKernel3 by osm0sis @ xda-developers" " " " ";
-
+ui_print "======================================";
+ui_print "                                      ";
+ui_print " ██████╗ ██╗   ██╗██╗  ██╗ █████╗     ";
+ui_print " ██╔══██╗██║   ██║██║ ██╔╝██╔══██╗    ";
+ui_print " ██████╔╝██║   ██║█████╔╝ ███████║    ";
+ui_print " ██╔══██╗██║   ██║██╔═██╗ ██╔══██║    ";
+ui_print " ██║  ██║╚██████╔╝██║  ██╗██║  ██║    ";
+ui_print " ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ";
+ui_print "                                      ";
+ui_print " =====================================";
+ui_print " ";
+ui_print "- Introducing $(file_getprop anykernel.sh kernel.string)";
+ui_print " ";
+ui_print "=======================================";
+ui_print "AnyKernel3 by osm0sis @ xda-developers";
+ui_print "=======================================";
 setup_env;
 
 do_devicecheck;
